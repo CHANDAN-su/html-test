@@ -102,7 +102,7 @@
     <br><br>
 
     <!-- img and hyperlink  -->
-    <a href=" www.github.com " target="-blank"><img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-27-2015-260nw-278925056.jpg" alt="Nothing" height="100" width="50"></a>
+    <a href=" www.github.com " target="-blank"><img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-27-2015-260nw-278925056.jpg" alt="Nothing" height="300" width="150"></a>
     <br><br>
 
     <!-- download img  -->
@@ -214,7 +214,188 @@
         </tr>
     
     </table>
-    
+     
+    <!-- Three types of list -->
+    <!-- 1. Order list  -->
+        <ol>
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+        <ol type="I" start="20">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+        <ol type="i">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+        <ol type="A">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+        <ol type="A">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+        <ol tupe="1" start="20" reversed>
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ol>
+
+
+        <!-- 2. Unoderlist  -->
+        <ul>
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ul>
+
+        <ul type="disc">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ul>
+
+        <ul type="square">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ul>
+
+
+        <ul type="circle">
+            <li>Apple</li>
+            <li>Banane</li>
+            <li>Pappya</li>
+            <li>Apple1</li>
+        </ul>
+
+        <!-- 3. Undefined -->
+         <dl>
+             <dt>Name</dt>
+            <dd>Chandan thakur</dd>
+        </dl>
+
+        <!-- Test -->
+      <ol>
+          <li>name
+              <ul>
+                  <li>Chandan</li>
+              </ul>
+          </li>
+      </ol>
+
+        <!-- forms -->
+        <form action="#">
+          Enter Name:  <input type="text" id="First Name" name="First Name" placeholder="Enter your name"><br><br>
+          Enter Email:  <input type="email" id="email" name="email"  placeholder="Emter email"><br><br>
+
+          <label for="First name">Enter Name</label> <br>
+          <input type="text" id="First Name" name="First Name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Enter email:</label><br>
+          <input type="email" id="email" name="email"  placeholder="Emter email"><br><br>
+            password: <input type="password" id="password" name="password"><br><br>
+
+          <label for="Message">Enter ypur message</label><br>
+          <textarea name="Message" id="message" cols="30" rows="10"></textarea><br><br>
+
+          <label for="Gender">Gender</label><br>
+          <input type="radio" id="Gender" name="Genter" value="male">Male
+          <input type="radio" id="Gender" name="Gender" value="Female">Female <br><br>
+
+          <label for="Your hobby:">Your hobby:</label><br><br>
+          <input type="checkbox" id="checkbox" name="cricket" value="cricket">cricket <br>
+          <input type="checkbox" id="checkbox" name="botball" value="botball">cricket <br>
+          <input type="checkbox" id="checkbox" name="Kabidi" value="Kabidi">cricket <br>
+          <input type="checkbox" id="checkbox" name="Hoki" value="Hokit">cricket <br>
+
+          <fieldset>
+              <legend>User information</legend>
+              <label for="First name">Enter Name</label> <br>
+          <input type="text" id="First Name" name="First Name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Enter email:</label><br>
+          <input type="email" id="email" name="email"  placeholder="Emter email"><br><br>
+
+          <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+          <label for="Message">Enter ypur message</label><br>
+          <textarea name="Message" id="message" cols="30" rows="10"></textarea><br><br>
+          
+          <input type="submit" >
+          </fieldset>
+
+          <!-- Test Form  -->
+          <h1>Resistraton From</h1>
+          <form action="#">
+            <Fieldset>
+                <legend>User pensonal information</legend>
+
+                <label for="Frist name">Enter your name:</label><br>
+                <input type="text" id="Frist name" name="Frist name"><br><br>
+
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="password">Enter your password</label><br>
+                <input type="password" id="password" name="Password"><br><br>
+
+                <label for="password">Conform your password</label><br>
+                <input type="password" id="password" name="Password"><br><br>
+
+                <label for="Gender">Enter your gender</label><br>
+                <input type="radio" id="Gender" name="Gender" value="Male">Male <br>
+                <input type="radio" id="Gender" name="Gender" value="Female">Female<br>
+                <input type="radio" id="Gender" name="Gender" value="Other">Other<br><br>
+
+                <label for="Address">Enter your address</label><br>
+                <textarea name="Address" id="Address" cols="30" rows="10"></textarea><br><br>
+
+                <input type="submit" name="submit" id="Submit">
+
+
+
+
+            </Fieldset>
+
+
+
+          </form>
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+        
     
 
 </body>
